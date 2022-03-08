@@ -3,7 +3,7 @@
         "username": "user1",
         "password": "pass",
         "wxsend_key":"",
-        "Macau":"False"
+        "origin":""
     },
     {
         "username": "user2",
