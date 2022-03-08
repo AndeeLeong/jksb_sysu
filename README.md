@@ -33,7 +33,7 @@ window,linux平台的driver已内置
 
 ### 初始化配置
 
-1. 在config.json中配置登录名 密码 wxsend_key origin。　#origin項澳門學生需輸入"mo"，大陸學生留空即可
+1. 在config.json中配置登录名 密码 wxsend_key 戶藉。
 2. 运行jksb_sysu.py
 
 ### 定时运行
