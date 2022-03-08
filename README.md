@@ -33,7 +33,7 @@ window,linux平台的driver已内置
 
 ### 初始化配置
 
-1. 在config.json中配置登录名 密码 wxsend_key 戶藉。
+1. 在config.json中配置登录名 密码 wxsend_key 戶藉。(ps:澳門學生請在origin項填"mo"，大陸生該项留空即可。)
 2. 运行jksb_sysu.py
 
 ### 定时运行
