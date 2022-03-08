@@ -43,7 +43,7 @@ def jksb():
     data = read_json()
     username = data[0]["username"]
     password = data[0]["password"]
-    Macau = data[0]["Macau"]
+    Origin = data[0]["origin"]
 
     step = 1  # 读取用户名密码成功
     log.get_logger().info("输入用户名密码")
@@ -72,7 +72,7 @@ def jksb():
     # driver.find_element_by_xpath('//*[@id="topSideLink"]/div[1]/div[3]/div[1]/div[2]/div[1]/div/div/div/div/div/div/div/div/div/ul/li[1]/div[1]').click()
     time.sleep(4)
 
-    if Macau:
+    if origin == "mo":
         # 点击澳门
         driver.find_element_by_xpath('//*[@id="V1_CTRL119"]').click()
 
